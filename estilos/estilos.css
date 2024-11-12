@@ -1,0 +1,90 @@
+body{
+	font-family: Century;
+	margin: 0;
+	padding: 0;
+	background-color: lightsalmon;
+	box-sizing: border-box;
+}
+header{
+	font-family: Arial Black;
+	background-color: white;
+	color: black;
+	padding: 1em;
+	text-align: center;
+}
+main{
+	font-family:Arial;
+	color: white;
+	background-color:white;
+	text-align: center;
+	box-sizing: border-box;
+}
+h1{
+	color:lightsalmon;
+	font-family:Arial;
+	font-size: 36px;
+	background-color: white;
+}
+h2{
+	color: lightsalmon;
+	background-color:white;
+	font-family:Arial;
+	font-size: 36 px;
+}
+h3{
+	color:Black;
+	font-family:Arial;
+	font-size:20px;
+	background-color: lightsalmon;
+}
+p{
+	color: black;
+	font-size: 16px;
+	font-family: arial;
+}
+table{
+	width:100%;
+	border: white;
+	color:white;
+	box-sizing: border-box;
+}
+form{
+	border:1px solid #ccc;
+	border-radius: 1em;
+	padding: 1em;
+	background-color:white;
+	margin: 0 auto;
+	width: 400px;
+}
+figure{
+	color:black;
+	font-family: arialnarrow;
+	font-size: 16px;
+}
+figcaption{
+	background-color: lightsalmon;
+}
+footer{
+	background-color: lightsalmon;
+	align-items: center;
+	text-align: center;
+}
+.cuadro {
+	width: 600px;
+	height: 600px;
+	border: transparent;
+	justify-content: center;
+	justify-items: center;
+	background-color: bisque;
+	margin: auto;
+	place-content: center;
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap; /*Espacio entre los div*/
+}
+.imagen {
+	object-fit: cover;
+}
